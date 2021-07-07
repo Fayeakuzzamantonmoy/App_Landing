@@ -274,3 +274,9 @@ label
     background: #ff63a3;
     color: #fff;
 }
+
+/* Slider */
+.slider-height
+{
+    min-height: 1190px;
+}
