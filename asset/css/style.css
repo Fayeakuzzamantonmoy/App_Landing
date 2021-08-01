@@ -83,7 +83,7 @@ h6
     color: #393542;
     margin-top: 0px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: normal;
 }
 h1 a,
@@ -216,6 +216,10 @@ label
     background: #fff;
     color: #ff62a3;
 }
+.pb-130
+{
+    padding-bottom: 130px;
+}
 /* header */
 .header-area
 {
@@ -226,6 +230,7 @@ label
     position: absolute;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .main-menu ul li a
@@ -312,9 +317,15 @@ label
 }
 
 /* Slider */
+.slider-area
+{
+    overflow-x: hidden;
+}
 .slider-height
 {
     min-height: 1190px;
+    background-repeat: no-repeat;
+    background-position: top left;
 }
 .slider-content-space
 {
@@ -342,4 +353,41 @@ label
 .slider-btn a
 {
     margin-right: 15px;
+}
+.shape
+{
+    position: absolute;
+}
+.shape-1
+{
+    top: 19%;
+    left: 8%;
+}
+.shape-2
+{
+    bottom: 21%;
+    left: 50%;
+}
+.app_shape_1
+{
+    position: absolute;
+    top: 6%;
+    left: -25%;
+}
+.app_shape_2
+{
+    position: absolute;
+    bottom: 18%;
+    right: -43%;
+}
+/* Fact */
+.single-fact h2
+{
+    color: #7336f1;
+    font-size: 48px;
+}
+.single-fact span
+{
+    color: #878991;
+    font-size: 16px;
 }

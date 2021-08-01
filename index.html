@@ -63,7 +63,12 @@
     <!-- header end -->
 
     <main>
-        <section class="slider_area slider-height d-flex" data-background="asset/image/banner_bg.png">
+        <!-- Slider Area Start -->
+        <section class="slider_area slider-height d-flex position-relative" data-background="asset/image/banner_bg.png">
+            <div class="shape_wrapper">
+                <img src="asset/image/triangle_shape_banner.png" alt="" class="shape shape-1">
+                <img src="asset/image/circle_shape_banner.png" alt="" class="shape shape-2">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-7">
@@ -77,13 +82,46 @@
                         </div>
                     </div>
                     <div class="col-xl-5">
-                        <div class="slider-img">
+                        <div class="slider-img position-relative">
                             <img src="asset/image/mobile_banner.png" alt="">
+                            <img class="app_shape_1" src="asset/image/banner_box.png" alt="">
+                            <img class="app_shape_2" src="asset/image/banner_box.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Slider Area End -->
+        <!-- Fact Area Start -->
+        <section class="fact_area pb-130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 offset-xl-2">
+                        <div class="row justify-content-between">
+                            <div class="col-xl-3">
+                                <div class="single-fact text-center">
+                                    <h2 class="counter">40,790</h2>
+                                    <span>Download App</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="single-fact text-center">
+                                    <h2 class="counter">40,790</h2>
+                                    <span>Download App</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="single-fact text-center">
+                                    <h2 class="counter">40,790</h2>
+                                    <span>Download App</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fact Area End -->
     </main>
     
     <!-- jQuery cdn -->
@@ -92,6 +130,10 @@
     <script src="asset/js/popper.min.js"></script>
     <!-- Bootstrap Js -->
     <script src="asset/js/bootstrap.min.js"></script>
+    <!-- Waypoint Js -->
+    <script src="asset/js/jquery.waypoints.min.js"></script>
+    <!-- Counterup Js -->
+    <script src="asset/js/jquery.counterup.min.js"></script>
     <!-- Main Js -->
     <script src="asset/js/main.js"></script>
 </body>
